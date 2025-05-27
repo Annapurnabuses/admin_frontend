@@ -15,13 +15,13 @@ const Sidebar = ({ currentPage, setCurrentPage }) => {
     { id: 'vehicles', label: 'Vehicles', icon: Bus },
     { id: 'consumers', label: 'Consumers', icon: Users },
     { id: 'payments', label: 'Payments', icon: CreditCard },
-    { id: 'expenses', label: 'Expenses', icon: Receipt },
-    { id: 'vendors', label: 'Vendors', icon: Building },
+    { id: 'expenses', label: 'Expenses (not given in first phase)', icon: Receipt },
+    { id: 'vendors', label: 'Vendors (not given in first phase)', icon: Building },
     { id: 'team', label: 'Team', icon: UserPlus },
     { id: 'rates', label: 'Rate Cards', icon: DollarSign },
-    { id: 'chat', label: 'Chat Support', icon: MessageSquare },
+    { id: 'chat', label: 'Chat Support (not given in first phase)', icon: MessageSquare },
     { id: 'documents', label: 'Documents', icon: FileText },
-    { id: 'reports', label: 'Reports', icon: TrendingUp },
+    { id: 'reports', label: 'Reports (not given in first phase)', icon: TrendingUp },
   ];
 
   return (
