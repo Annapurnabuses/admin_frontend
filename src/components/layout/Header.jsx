@@ -27,7 +27,7 @@ const Header = () => {
           )}
           
           <div className="flex items-center space-x-2 mr-4">
-            <img src="/api/placeholder/32/32" alt="Logo" className="w-8 h-8 rounded" />
+            {/* <img src="/api/placeholder/32/32" alt="Logo" className="w-8 h-8 rounded" /> */}
             <h1 className="text-xl font-bold text-gray-900 hidden md:block">Annapurna</h1>
           </div>
 
