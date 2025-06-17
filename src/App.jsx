@@ -21,7 +21,7 @@ function App() {
   const renderPage = () => {
     switch (currentPage) {
       case 'dashboard':
-        return <DashboardPage />;
+        return <DashboardPage setCurrentPage={setCurrentPage} />;
       case 'bookings':
         return <BookingsPage />;
       case 'vehicles':
